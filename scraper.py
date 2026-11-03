@@ -29,3 +29,4 @@ for book in books:
     df = pd.DataFrame(data_list)
     df.to_csv("books_data.csv", index=False, encoding="utf-8-sig")
 print("✅ تم حفظ البيانات في ملف 'books_data.csv' بنجاح!")
+print("To try a new git command")
